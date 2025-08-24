@@ -13,7 +13,7 @@ st.markdown("""
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     body {background-color: #0b0f1a;}
-    a {text-decoration: none;}  /* remove underlines */
+    a {text-decoration: none;}  /* remove underlines from links */
     </style>
 """, unsafe_allow_html=True)
 
@@ -35,8 +35,8 @@ html_content = """
 Developer • Problem Solver | Building ML apps, dashboards, and full-stack solutions.
 </p>
 <div style="margin-top:10px;">
-<a href='#projects' style='padding:10px 20px;background:#8b5cf6;color:white;border-radius:12px;text-decoration:none;'>See Projects</a>
-<a href='#contact' style='padding:10px 20px;border:1px solid #fff;color:white;border-radius:12px;margin-left:10px;text-decoration:none;'>Contact Me</a>
+<a href='#projects' style='padding:10px 20px;background:#8b5cf6;color:white;border-radius:12px;'>See Projects</a>
+<a href='#contact' style='padding:10px 20px;border:1px solid #fff;color:white;border-radius:12px;margin-left:10px;'>Contact Me</a>
 </div>
 </div>
 
@@ -64,34 +64,28 @@ Developer • Problem Solver | Building ML apps, dashboards, and full-stack solu
 <hr style='border:1px solid #333;'>
 
 <div id="skills">
-<h2 style='color:white; font-size:2rem;'>Skills</h2>
+<h2 style='color:white; font-size:2rem;'>Skills & Tools</h2>
 <div style='display:flex; flex-wrap:wrap; gap:20px;'>
-
   <div style='background:#111624; padding:15px; border-radius:12px; flex:1 1 250px;'>
     <h3 style='color:#8b5cf6;'>Programming Languages</h3>
     <p style='color:#d1d5db;'>Java, C, Python, SQL</p>
   </div>
-
   <div style='background:#111624; padding:15px; border-radius:12px; flex:1 1 250px;'>
     <h3 style='color:#8b5cf6;'>Web Development</h3>
     <p style='color:#d1d5db;'>HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, Spring Boot</p>
   </div>
-
   <div style='background:#111624; padding:15px; border-radius:12px; flex:1 1 250px;'>
     <h3 style='color:#8b5cf6;'>Machine Learning & AI</h3>
-    <p style='color:#d1d5db;'>Scikit-learn, Pandas, NumPy, LLM basics, Prompt Engineering</p>
+    <p style='color:#d1d5db;'>Scikit-learn, Pandas, NumPy, Basic LLMs, Prompt Engineering</p>
   </div>
-
   <div style='background:#111624; padding:15px; border-radius:12px; flex:1 1 250px;'>
     <h3 style='color:#8b5cf6;'>DevOps & Tools</h3>
     <p style='color:#d1d5db;'>Docker, Kubernetes, Git, GitHub</p>
   </div>
-
   <div style='background:#111624; padding:15px; border-radius:12px; flex:1 1 250px;'>
     <h3 style='color:#8b5cf6;'>Soft Skills</h3>
     <p style='color:#d1d5db;'>Teamwork, Collaborative Problem-Solving, Adaptability</p>
   </div>
-
 </div>
 </div>
 
@@ -100,10 +94,19 @@ Developer • Problem Solver | Building ML apps, dashboards, and full-stack solu
 <div id="experience">
 <h2 style='color:white; font-size:2rem;'>Experience</h2>
 <div style='display:flex; flex-direction:column; gap:15px;'>
+
+  <div style='background:#111624; padding:15px; border-radius:12px;'>
+    <h3 style='color:#8b5cf6;'>Teaching Assistant — PES University</h3>
+    <p style='color:#d1d5db;'>Aug 2025 – Present · Part-time · Bengaluru, India (On-site)</p>
+    <p style='color:#d1d5db;'>Guided students in Web Development and Web Technologies, assisting in labs and coursework (+1 skill area).</p>
+  </div>
+
   <div style='background:#111624; padding:15px; border-radius:12px;'>
     <h3 style='color:#8b5cf6;'>Data Scientist Intern — Oasis Infobyte</h3>
-    <p style='color:#d1d5db;'>Nov 2024 – Dec 2024: Applied ML models on real-world datasets, analysis & model comparisons.</p>
+    <p style='color:#d1d5db;'>Nov 2024 – Dec 2024 · Internship</p>
+    <p style='color:#d1d5db;'>Applied ML models on real-world datasets, performed analysis & model comparisons.</p>
   </div>
+
 </div>
 </div>
 
@@ -113,8 +116,8 @@ Developer • Problem Solver | Building ML apps, dashboards, and full-stack solu
 <h2 style='color:white; font-size:2rem;'>Contact Me</h2>
 <p style='color:#d1d5db;'>Open to internships & backend roles. Connect via email or LinkedIn.</p>
 <div style='margin-top:10px;'>
-  <a href='mailto:bhavana@example.com' style='padding:10px 20px;border:1px solid #fff;color:white;border-radius:12px;margin-right:10px;text-decoration:none;'>Email</a>
-  <a href='https://www.linkedin.com/in/bhavana-talavar-62ba72328/' style='padding:10px 20px;background:#8b5cf6;color:white;border-radius:12px;text-decoration:none;'>LinkedIn</a>
+  <a href='mailto:bhavana@example.com' style='padding:10px 20px;border:1px solid #fff;color:white;border-radius:12px;margin-right:10px;'>Email</a>
+  <a href='https://www.linkedin.com/in/bhavana-talavar-62ba72328/' style='padding:10px 20px;background:#8b5cf6;color:white;border-radius:12px;'>LinkedIn</a>
 </div>
 </div>
 
