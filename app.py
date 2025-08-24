@@ -7,13 +7,14 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Hide Streamlit menu and footer
+# Hide Streamlit menu and footer + remove underlines
 st.markdown("""
     <style>
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     body {background-color: #0b0f1a;}
-    a {text-decoration: none;}  /* remove underlines from links */
+    a {text-decoration: none !important;}   /* 🔥 No underlines on links */
+    a:hover {text-decoration: none !important;}
     </style>
 """, unsafe_allow_html=True)
 
@@ -55,8 +56,8 @@ Developer • Problem Solver | Building ML apps, dashboards, and full-stack solu
     <p style='color:#d1d5db;'>Solidity smart contracts + Hardhat + MetaMask integration.</p>
   </div>
   <div style='background:#111624; padding:20px; border-radius:15px; flex:1 1 300px; min-width:300px;'>
-    <a href='https://github.com/bhavana9635/Flood-Prediction-ML' target='_blank' style='color:#8b5cf6; font-weight:bold;'>Flood Prediction ML</a>
-    <p style='color:#d1d5db;'>Random Forest + AI chatbot, Streamlit + OpenWeather API integration.</p>
+    <a href='https://github.com/bhavana9635/Flight-Crew-Scheduling-and-Duty-Time-Compliance-System.git' target='_blank' style='color:#8b5cf6; font-weight:bold;'>Flight Crew Scheduling & Duty-Time Compliance System</a>
+    <p style='color:#d1d5db;'>Developed with Python Streamlit frontend and MySQL backend. Handles crew scheduling, duty-hour tracking, and compliance checks with error-handled DB connections.</p>
   </div>
 </div>
 </div>
