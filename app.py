@@ -31,9 +31,9 @@ st.sidebar.markdown("""
 # --- HTML content ---
 html_content = """
 <div id="home">
-<h1 style="color:white; font-size:3rem;">Hi, I'm Bhavana Talavar</h1>
+<h1 style="color:white; font-size:3rem;">Hi, I'm Bhavana Prakash Talavar</h1>
 <p style="color:#d1d5db; font-size:1.1rem;">
-Developer • Problem Solver | Building ML apps, dashboards, and full-stack solutions.
+Innovative Software Developer | ML Applications | Full-Stack Problem Solver
 </p>
 <div style="margin-top:10px;">
 <a href='#projects' style='padding:10px 20px;background:#8b5cf6;color:white;border-radius:12px;'>See Projects</a>
@@ -83,10 +83,7 @@ Developer • Problem Solver | Building ML apps, dashboards, and full-stack solu
     <h3 style='color:#8b5cf6;'>DevOps & Tools</h3>
     <p style='color:#d1d5db;'>Docker, Kubernetes, Git, GitHub</p>
   </div>
-  <div style='background:#111624; padding:15px; border-radius:12px; flex:1 1 250px;'>
-    <h3 style='color:#8b5cf6;'>Soft Skills</h3>
-    <p style='color:#d1d5db;'>Teamwork, Collaborative Problem-Solving, Adaptability</p>
-  </div>
+  
 </div>
 </div>
 
